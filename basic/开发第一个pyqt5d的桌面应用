@@ -1,0 +1,3 @@
+开发第一个基于pyqt5的桌面应用
+
+必须使用两个类： QApplication和QWidgets。都在PyQt5.QtWidgets。
