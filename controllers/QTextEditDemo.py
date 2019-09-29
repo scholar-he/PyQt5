@@ -42,16 +42,16 @@ class QTextEditDemo(QWidget):
         self.buttonToHtml.clicked.connect(self.onClick_ButtonToHtml)
 
     def onClick_ButtonText(self):
-        self.textEdit.setPlainText("Hello World, 世界你好吗？")
+        self.textEdit.setPlainText("Hello World, 世界你好吗？") # 设置纯文本
 
     def onClick_ButtonHtml(self):
-        self.textEdit.setHtml('<font color="blue" size="5">Hello World</font>')
+        self.textEdit.setHtml('<font color="blue" size="5">Hello World</font>')  # 设置html
 
     def onClick_ButtonToText(self):
-        print(self.textEdit.toPlainText())
+        print(self.textEdit.toPlainText()) # 获取纯文本
 
     def onClick_ButtonToHtml(self):
-        print(self.textEdit.toHtml())
+        print(self.textEdit.toHtml())  # 获取html
 
 
 if __name__ == '__main__':
