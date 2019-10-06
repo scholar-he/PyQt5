@@ -19,7 +19,7 @@ class QFontDialogDemo(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle("FontDialog案例")
+        self.setWindowTitle("Font Dialog案例")
         layout = QVBoxLayout()
 
         self.fontButton = QPushButton("选择字体")
