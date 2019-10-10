@@ -32,7 +32,7 @@ class MainWindow(QMainWindow):
 
         ####第一个tab
         self.webview = WebEngineView(self)   #self必须要有，是将主窗口作为参数，传给浏览器
-        self.webview.load(QUrl("http://www.789ut.com"))
+        self.webview.load(QUrl("http://www.baidu.com"))
         self.create_tab(self.webview)
 
 
