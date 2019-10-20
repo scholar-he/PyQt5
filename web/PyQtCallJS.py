@@ -51,8 +51,6 @@ class PyQtCallJS(QWidget):
         self.browser.page().runJavaScript('fullname("' + self.value + '");', self.js_callback)
 
 
-
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     win = PyQtCallJS()
